@@ -145,3 +145,26 @@ footer > p { font-size: 13px; }
   .store-card { padding: 30px; }
   .store-card h3 { font-size: 32px; }
 }
+/* Worker’s Blend Music Player */
+.music-player {
+  margin-top: 24px;
+}
+
+.music-button {
+  background: transparent;
+  color: var(--light-gold);
+  border: 1px solid var(--gold);
+  padding: 12px 22px;
+  border-radius: 30px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.music-button:hover {
+  background: var(--gold);
+  color: var(--dark-brown);
+  transform: translateY(-2px);
+}
